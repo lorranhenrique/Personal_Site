@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(42, 19, 71);
+    background-image: linear-gradient(to top, #ff00d4,rgb(79, 1, 168), rgb(12, 1, 26));
     margin: 0;
 }
 
@@ -33,6 +33,7 @@ body {
     background: #150125;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 5px 5px #c90366;
 }
 
 .navbar a:hover {
@@ -53,7 +54,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
     gap: 40px;
     max-width: 1000px;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 0 20px;
 }
 
@@ -65,7 +66,7 @@ body {
 
 .project-card h3 {
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 8px;
     font-size: 1.4rem;
 }
@@ -110,13 +111,50 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 .contatos a{
     font-family:'Courier New', Courier, monospace;
     padding-left: 210px;
     font-size: 25px;
     color: aliceblue;
     text-decoration: none;
+}
+
+.conjunto h2{
+    font-size: 40px;
+    color: aliceblue;
+    padding-left: 210px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #713db6;
+    max-width: 210px;
+    border-radius: 5px;
+    box-shadow: 10px 5px #750044;
+}
+
+.devvlogs{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #230e3f;
+    border-radius: 15px;
+    box-shadow: 4px 3px 0px 3px #da007f;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+
+}
+
+.devvlogs a{
+        text-decoration: none;
+        transition: 0.3s ease;
+        color: #8c1497;
+}
+
+.devvlogs a:hover{
+        color: #ff0080;
+        font-size: 43px;
 }
 
 .footer{
